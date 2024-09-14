@@ -1,8 +1,8 @@
 
 
-# Web Application Automation and API Automation Project
+# API Automation Project
 
-Welcome to the Selenium Automation Framework repository! This guide will walk you through the process of setting up a new Selenium framework project from scratch using Maven, including dependency management, project configuration.
+Welcome to the Selenium Automation Framework repository! This guide will walk you through the process of setting up a new Selenium framework project from scratch using Maven, including dependency management, and project configuration.
 
 
 ## Table of content
@@ -16,6 +16,7 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 - Creating TestNG XML File
 - Running Tests
 - Checking Test Reports
+- Importing Postman Collection
 ## Prerequisites
 Before you start, ensure you have the following installed:
 
@@ -215,3 +216,56 @@ This action updates the Maven dependencies and configurations in Eclipse.
     2. Run Tests:
         - Right-click on the test class or test suite you want to run.
         - Select Run As > TestNG Test (or JUnit Test if using JUnit).
+
+## Importing Postman Collection(API testing using Postman tool)
+**1. Install Postman**
+
+If you haven’t already, download and install Postman from Postman’s website. It’s available for Windows, macOS, and Linux.
+
+**2. Open Postman**
+Launch the Postman application on your computer.
+
+**3. Import a Collection**
+1. Click on the “Import” Button:
+- On the left sidebar, click on the "Import" button. This opens the import modal.
+2. Choose Import Method:
+- You can import a collection by dragging and dropping a file into the modal, pasting a URL, or uploading a file directly.
+To upload a file:
+- Download the collection file from [URL](https://drive.google.com/file/d/1bxJE1Xyh69Z8suH9kZTXHlY19kcmuDsN/view).
+- Click “Upload Files” and select the Postman collection file (usually a .json file) from download directory of your computer.
+
+3. Import the Collection:
+
+- After selecting the file or pasting the URL, click the “Import” button in the modal to start the import process.
+
+**4. View the Imported Collection**
+1. Navigate to Collections:
+
+- On the left sidebar, click on “Collections” to see the imported 
+collection listed.
+
+2. Expand the Collection:
+
+- Click on the collection name to expand it and view the available requests, folders, and other details.
+**5. Run the Collection**
+1. Open Collection Runner:
+
+- Click on the “Runner” button in the top left corner of Postman (it looks like a play icon) to open the Collection Runner.
+2. Select the Collection:
+
+- In the Collection Runner window, select the collection you want to run from the dropdown menu.
+
+3. Start the Run:
+
+- Click the “Run” button to start executing the collection.
+4. Monitor the Run:
+
+- The Collection Runner will display the progress and results of the requests. You can see details about each request, including status codes, response times, and any test results.
+
+**6. Analyze Results**
+1. Review Results:
+
+- After the run is complete, you can review the results directly in the Collection Runner window. You’ll see a summary of successes, failures, and other relevant metrics.
+2. Check Logs and Tests:
+
+- Click on individual requests to view detailed logs, responses, and any test results that were part of the collection. 
