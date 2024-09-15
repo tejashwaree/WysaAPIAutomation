@@ -39,7 +39,7 @@ Download and install Eclipse IDE from the official Eclipse website. Choose the "
 - Go to File > New > Other....
 - Select Maven > Maven Project and click Next.
 - Check Create a simple project (skip archetype selection) and click Next.
-- Enter Group ID (e.g., com.Automation), Artifact ID (e.g., selenium-automation), and Version (e.g., 1.0-SNAPSHOT).
+- Enter Group ID (e.g., com.Automation), Artifact ID (e.g., APIautomation), and Version (e.g., 1.0-SNAPSHOT).
 - Click Finish.
 ## Adding Maven Dependencies
 1. Open pom.xml located in the root directory of your Maven project.
@@ -105,8 +105,7 @@ The Maven project structure will look like this:
     ├── pom.xml
     └── .project
 
-- com.automation.Tests: Contains Login-related test classes and API-related test classes.
-- com.example.utils: Utility classes (e.g., WebDriver setup).
+- com.automation.Tests: Contains API-related test classes.
 
 ## Writing Test Cases
 ## API Test Case
