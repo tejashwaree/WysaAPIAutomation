@@ -6,6 +6,7 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 
 
 ## Table of content
+- Description
 - Prerequisites 
 - Setting Up the Environment 
 - Creating the Maven Project 
@@ -17,6 +18,16 @@ Welcome to the Selenium Automation Framework repository! This guide will walk yo
 - Running Tests
 - Checking Test Reports
 - Importing Postman Collection
+
+## Description
+Project Overview: This project focuses on automating API testing using RestAssured, a powerful Java library for RESTful API testing, Java for scripting, and TestNG for test management, this framework aims to provide a robust solution for validating API endpoints, ensuring they meet functional requirements. The project is designed to streamline the testing process and improve test coverage.
+
+Tools and Technologies:
+
+1. RestAssured: A Java library used for simplifying API testing. It provides a fluent interface for sending HTTP requests, validating responses, and handling various API scenarios.
+2. Java: The programming language used to write the test scripts and integrate with RestAssured and TestNG.
+3. TestNG: The testing framework used for managing, executing, and reporting test cases, providing support for test grouping and configuration.
+
 ## Prerequisites
 Before you start, ensure you have the following installed:
 
